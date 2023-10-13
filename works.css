@@ -1,0 +1,118 @@
+nav {
+    position: fixed;
+    background-color: #16161a;
+    width: 100%;
+    z-index: 500;
+    transition: all 1s;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 8.2rem;
+
+}
+.logo-name {
+    
+    align-self: center;
+    font-size: 5rem;
+    margin-left: 10rem;
+}
+.logo-name a {
+    color: #d06502;
+    transition: color .3s ease-in;
+}
+.logo-name a:hover {
+    color: #eaeaea;
+}
+#navbar ul{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 10rem;
+    font-size: 1.8rem;
+    align-items: center;
+}
+
+
+#navbar ul li .menu-links {
+    border-left: 1px solid #d06502;
+    padding: 2.5rem; 
+    padding-top: 3rem;
+    padding-bottom: 2.9rem;
+    color: #d06502;
+    display: inline-block;
+    transition: all .3s;
+}
+#navbar ul li:last-child .menu-links {
+    border-right: 1px solid #d06502;
+}
+
+#navbar ul li .menu-links:hover {
+    background-color: #d06502;
+    color: #eaeaea;
+}
+
+/*accordion*/
+
+#accordion {
+    padding-top: 15rem;
+    margin-bottom: 10rem;
+    color: #eaeaea;
+    font-size: 1.8rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    align-self: center;
+}
+
+#accordion h3 {
+    background: radial-gradient(#d06502,#04beec);
+    border-radius: 5px;
+    border: 2px dashed #eaeaea;
+    max-width: 100%;
+    text-align: center;
+    cursor: cell;
+    height: 8rem;
+    font-size: 4rem;
+    padding-top: 1rem;
+}
+.segments {
+    box-sizing: content-box;
+    display: flex;
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+    background-color: #eaeaea;
+    justify-content: space-between;
+    align-items: center;
+}
+.segments img {
+    margin: 5rem;
+    padding: 1rem;
+    width: 11rem;
+    height: 15rem;
+    border: 1px solid black;
+}
+.segments p {
+    color: #16161a;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    border-left: 1px solid #d06502;
+    border-right: 1px solid #d06502;
+}
+
+.segments .download-button a {
+    display: inline-block;
+    padding: 2rem;
+    border: 1px solid #d06502;
+    color: #d06502;
+    margin: 5rem;
+    transition: all .4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+.segments .download-button a:hover {
+    display: inline-block;
+    padding: 2rem;
+    border: 1px solid #d06502;
+    color: #eaeaea;
+    background-color: #04beec;
+    margin: 5rem;
+}
+

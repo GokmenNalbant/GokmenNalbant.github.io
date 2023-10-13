@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT ME</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="aboutme.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" 
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+       
+    $(document).ready(function() {
+      $( "#soz" ).click( function() {
+          $("#translate").toggle(1000);
+      });
+    } );
+            
+    </script>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo-name">
+                <p><a href="">GÖKMEN NALBANT</a></p>
+            </div>
+            <div id="navbar" class="responsive">
+                <ul>
+                    <li><a class="menu-links nav-icon" href="#"><i class="fas fa-bars"></i></a></li>
+                    <li><a class="menu-links" href="/index.html">HOME</a></li>
+                    <li><a class="menu-links" href="/works.html">WORKS</a></li>
+                    <li><a class="menu-links" href="/aboutme.html">ABOUT ME</a></li>
+                    <li><a class="menu-links" href="/contactme.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="presentation">
+        <h2>ABOUT ME</h2>
+        <hr class="star-light">
+        <div class="pre-container">
+            <div class="picture">
+                <img src="img/me111.jpg" alt="">
+            </div>
+            <div class="text">
+                <p>My name is Gökmen Nalbant. I am a computer engineering student at Ankara University. 
+                    My current CGPA is 3.07. I love coding. Creating your own world and producing new things 
+                    by writing code is a wonderful event for me. I work in many areas to improve myself. 
+                    Web development is one of them. If you want, I can design a site for you. 
+                    Apart from that, I am developing myself in every area of the software. 
+                    Therefore, I can help you with any other subject.
+                    </p>
+                </div>
+                
+           
+        </div>
+    </section>
+    <section id="lata">
+        <p id="soz">Lata visiones non pertinent ad vitam parvum.</p>
+        <p id="translate">TR : Geniş vizyonlar, dar hayatlara ait değildir.<br>
+            EN : Broad visions do not belong to narrow lives.
+        </p>
+    </section>
+    <section class="skills">
+        <h2>COMPUTER SKILLS</h2>
+        <hr class="star-dark">
+        <div class="skills-container">
+            <h4>Languages/Scripting </h4>
+                <span>C</span>
+                <span>C++</span>
+                <span>Java</span>
+                <span>Python</span>
+                <span>Html</span>
+                <span>Css</span>
+                <span>JavaScript</span>
+                <span>JQuery</span>
+                <span>Bootstrap</span>
+                <span>C#</span>
+                <span>ASP.Net</span>
+            <h4>Databases</h4>
+                <span>MySQL</span>
+            <h4>Operating Systems </h4>
+                <span>Linux</span>
+                <span>Windows</span>
+            <h4>Programs/IDEs: </h4>
+                <span>Unity</span>
+                <span>Visual Studio</span>
+                <span>VS Code</span>
+                <span>MinGW</span>
+                <span>Android Studio</span>
+                <span>Netbeans</span>
+                <span>Bracket</span>
+                <span>Atom</span>
+                <span>Dev-C++</span>
+                <span>Code::Blocks</span>
+            <h4>Industry Knowledge</h4>
+                <span>Computer Engineer</span>
+                <span>Web Development</span>
+                <span>Full-Stack Development</span>
+                <span>Game Development</span>
+                <span>Sofware Programming</span>
+                <span>Object-Oriented Programming</span>
+                <span>MVC</span>
+                <span>Data Structures</span>
+                <span>Database Management</span>
+            
+            
+            
+            
+                 
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-footer">
+            <div class="social">
+                <h3>FOLLOW ME</h3>
+                <div class="icons">
+                    <a href="https://tr.linkedin.com/in/gökmen-nalbant-9301b31a2" target="_blank"><i class="fab fa-linkedin fa-5x"></i></a>
+                    <a href="https://github.com/GokmenNalbant" target="_blank"><i class="fab fa-github fa-5x"></i></a>
+                    <a href="https://twitter.com/gokmennalbant" target="_blank"><i class="fab fa-twitter fa-5x"></i></a>
+                    <a href="https://www.instagram.com/nalbantgokmen/" target="_blank"><i class="fab fa-instagram fa-5x"></i></a>
+                </div>
+            </div>
+            <div class="contact-footer">
+                <h3>CONTACT ME</h3>
+                <p><a href=mailto:nalbantgokmen@gmail.com?subject="gokmenalbant.com" target="_blank">nalbantgokmen@gmail.com</a><i class="far fa-envelope fa-4x"></i></p>
+            </div>
+        </div>
+        <div class="adam">
+            <p>Developed By Gökmen Nalbant - All Right Reserved</p>
+        </div>
+    </footer>
+    <script>
+        $(".nav-icon").click(function() {
+
+  
+$("#navbar").toggleClass('responsive');
+
+
+});
+    </script>
+</body>
+</html>

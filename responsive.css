@@ -1,0 +1,108 @@
+
+@media screen and (max-width: 1330px) {
+    html {
+        font-size: 9px;
+    }
+   
+}
+@media screen and (max-width: 1188px) {
+    html {
+        font-size: 8px;
+    }
+   
+}
+@media screen and (max-width: 1100px) {
+    html {
+        font-size: 7px;
+    }
+    
+}
+@media screen and (max-width: 935px) {
+    html {
+        font-size: 6px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .logo-name {
+        padding-top: 1rem;
+    }
+    .pre-container {
+        flex-direction: column;
+    }
+    .pre-container .picture {
+        text-align: center;
+    }
+
+    .container-about {
+        display: flex;
+        flex-direction: column;
+        
+        height: 130rem;
+    }
+    
+    .information {
+        margin-top: 0rem;
+        height: 0rem;
+        margin-left: auto;
+        margin-right: 10rem;
+    }
+    .information p {
+        padding: 1rem;
+    }
+    .information h2 {
+        padding-top: 30rem;
+    }
+    .profile-img img {
+        align-self: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0rem;
+        padding: 10rem;
+       
+        width: 40rem;
+        height: 40rem;
+        border-radius: 50%;
+    }
+    
+    html {
+        font-size: 5px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    html {
+        font-size: 4px;
+    }
+    .container {
+       display: block; 
+    }
+    #navbar li:first-child {
+        display: block;
+        position: absolute;
+        top: .2rem;
+        right: 3rem;
+    }
+    #navbar.responsive li:not(:first-child) {
+        display: none;
+        
+        
+    }
+    #navbar ul {
+        display: block;
+    }
+    #navbar li:not(:first-child) a {
+        display: block;
+        width: 100%;
+        background-color: #eaeaea;
+        color: #16161a;
+        margin: 0;
+        border-right: 1px solid #d06502;
+    }
+
+}
+@media screen and (max-width: 535px) {
+    html {
+        font-size: 3px;
+    }
+ 
+}

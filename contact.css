@@ -1,0 +1,90 @@
+body {
+   
+     background: linear-gradient(#333,#5e5d5d,#000);
+ }
+/*NAV*/
+nav {
+    position: fixed;
+    background-color: #16161a;
+    width: 100%;
+    z-index: 500;
+    transition: all 1s;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 8.2rem;
+
+}
+.logo-name {
+    padding-top: 1rem;
+    align-self: center;
+    font-size: 5rem;
+    margin-left: 10rem;
+}
+.logo-name a {
+    color: #d06502;
+    transition: color .3s ease-in;
+}
+.logo-name a:hover {
+    color: #eaeaea;
+}
+#navbar ul{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 10rem;
+    font-size: 1.8rem;
+    align-items: center;
+}
+
+
+#navbar ul li .menu-links {
+    border-left: 1px solid #d06502;
+    padding: 2.5rem; 
+    padding-top: 3rem;
+    padding-bottom: 2.9rem;
+    color: #d06502;
+    display: inline-block;
+    transition: all .3s;
+}
+#navbar ul li:last-child .menu-links {
+    border-right: 1px solid #d06502;
+}
+
+#navbar ul li .menu-links:hover {
+    background-color: #d06502;
+    color: #eaeaea;
+}
+
+
+/*Contact*/
+
+.contact-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+   
+    padding-top: 10rem;
+    font-size: 3rem;
+    color: #00ffb3;
+    border-left: 1rem groove #d06502;
+    border-right: 1rem groove #d06502;
+    
+}
+
+.contact-container p {
+    margin-top: 5rem;
+    margin-left: 10rem;
+    margin-bottom: 2rem;
+    
+}
+.contact-container p:last-child {
+    text-align: center;
+}
+.contact-container a i, .contact-container a {
+    margin-left: 1rem;
+    color: #d06502;
+}
+.contact-container a i:hover, .contact-container a:hover {
+    color: #00ffb3;
+}
